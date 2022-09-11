@@ -1,14 +1,3 @@
-/*
-Template Name: DASHGUM FREE - Bootstrap 3.2 Admin Theme
-Template Version: 1.0
-Author: Carlos Alvarez
-Website: http://blacktie.co
-Premium: http://www.gridgum.com
-*/
-
-/* Import fonts */
-
-/* BASIC THEME CONFIGURATION */
 body {
     color: #797979;
 	background: #f2f2f2;
@@ -213,14 +202,14 @@ hr {
 }
 
 ul.top-menu > li > .logout {
-	color: #333;
+	color: #fff;
 	font-size: 12px;
 	border-radius: 4px;
 	-webkit-border-radius: 4px;
-	border: 1px solid #f8f407 !important;
+	border: 1px solid #fff !important;
 	padding: 5px 15px;
 	margin-right: 15px;
-    background: #f8f407;
+    background: #428BCA;
     font-weight: 800;
 	margin-top: 15px;
 }
@@ -232,11 +221,12 @@ ul.top-menu > li > .logout {
     width: 210px;
     height: 100%;
     position: fixed;
-    background: #424a5d;
+    background: #fff;
+    color: #000;
 }
 
 #sidebar h5 {
-	color: #f2f2f2;
+	color: #000;
 	font-weight: 700;
 }
 
@@ -295,7 +285,8 @@ ul.sidebar-menu {
 }
 
 ul.sidebar-menu li ul.sub li{
-    background: #424a5d;
+    background: #fff;
+    color: #000;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -316,16 +307,16 @@ ul.sidebar-menu li ul.sub li a {
     -o-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    color: #aeb2b7;
+    color: #000;
 }
 
 ul.sidebar-menu li ul.sub li a:hover {
-	color: white;
+	color: #428BCA;
 	background: transparent;
 }
 
 ul.sidebar-menu li ul.sub li.active a {
-    color: #68dff0;
+    color: #428BCA;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -350,7 +341,7 @@ ul.sidebar-menu li a span{
 }
 
 ul.sidebar-menu li a{
-    color: #aeb2b7;
+    color: #000;
     text-decoration: none;
     display: block;
     padding: 15px 0 15px 10px;
@@ -364,7 +355,7 @@ ul.sidebar-menu li a{
 }
 
 ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus {
-    background: #68dff0;
+    background: #428BCA;
     color: #fff;
     display: block;
 
@@ -1026,27 +1017,30 @@ PANELS CONFIGURATIONS
 
 /* Dark Blue*/
 
-.darkblue-panel {
+.white-panel {
 	text-align: center;
-	background: #444c57;
+	background: #fff;
+    color: #000;
+    border-color: #ddd;
 }
-.darkblue-panel .darkblue-header {
-	background: transparent;
+.white-panel .white-header {
+	background: #fff;
 	padding: 3px;
 	margin-bottom: 15px;
+    color: #000;
 }
-.darkblue-panel h1 {
-	color: #f2f2f2;
+.white-panel h1 {
+	color: #000;
 }
-.darkblue-panel h5 {
+.white-panel h5 {
 	font-weight: 200;
 	margin-top: 10px;
-	color: white;
+	color: #000;
 }
-.darkblue-panel footer {
-	color: white;
+.white-panel footer {
+	color: #000;
 }
-.darkblue-panel footer h5 {
+.white-panel footer h5 {
 	margin-left:10px; 
 	margin-right: 10px;
 	font-weight: 700;
@@ -1410,11 +1404,12 @@ PANELS CONFIGURATIONS
 
 /* Calendar Configuration */
 #calendar {
-	color: white;
+	color: #000;
 	padding: 0px !important;
 }
 .calendar-month-header {
-	background: #43b1a9;
+	background: #fff;
+    color: #000;
 }
 
 /* TODO PANEL */
@@ -2216,7 +2211,7 @@ label {
 
 /*footer*/
 .site-footer {
-    background: #285c64;
+    background: #428BCA;
     color: #fff;
     padding: 12px 0;
     font-size:12pt;

@@ -2,7 +2,7 @@
    <!--footer start-->
    <footer class="site-footer">
        <div class="text-center">
-           Copyright &copy; <?php echo date('Y'); ?><a href="https://codekop.com" style="color:yellow;font-weight:700;" target="_blank"> ORIONWAY</a>
+           Copyright &copy; <?php echo date('Y'); ?><a href="/" style="color:#fff;font-weight:700;" target="_blank"> ORIONWAY</a>
            <a href="#" class="go-top">
                <i class="fa fa-angle-up"></i>
            </a>
