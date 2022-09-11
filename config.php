@@ -6,7 +6,7 @@ error_reporting(0);
 $host   = 'localhost';
 $user   = 'root';
 $pass   = '';
-$dbname = 'db_toko';
+$dbname = 'orionway';
 
 try {
   $config = new PDO("mysql:host=$host;dbname=$dbname;", $user, $pass);
