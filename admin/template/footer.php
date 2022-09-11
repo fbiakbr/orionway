@@ -1,5 +1,3 @@
-   <!--main content end-->
-   <!--footer start-->
    <footer class="site-footer">
        <div class="text-center">
            Copyright &copy; <?php echo date('Y'); ?><a href="/" style="color:#fff;font-weight:700;" target="_blank"> ORIONWAY</a>
@@ -15,7 +13,7 @@
    <script src="assets/js/bootstrap.min.js"></script>
    <script class="include" type="text/javascript" src="assets/js/jquery.dcjqaccordion.2.7.js"></script>
    <script src="assets/js/jquery.scrollTo.min.js"></script>
-   <script src="assets/js/jquery.nicescroll.js" type="text/javascript"></script>
+   <!-- <script src="assets/js/jquery.nicescroll.js" type="text/javascript"></script> -->
    <script src="assets/js/jquery.sparkline.js"></script>
 
    <script src="assets/datatables/jquery.dataTables.min.js"></script>
